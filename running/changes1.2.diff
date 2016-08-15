@@ -1,0 +1,13 @@
+Index: Client.js
+===================================================================
+--- Client.js	(revision 329)
++++ Client.js	(revision 330)
+@@ -463,7 +463,7 @@
+ 	g_bullets[team][id].m_live = live;
+ 	g_bullets[team][id].m_team = team;
+ 	g_bullets[team][id].m_type = type;
+-	g_bullets[team][id].m_dir = dir;
++	g_bullets[team][id].m_direction = dir;
+ 	g_bullets[team][id].m_speed = speed;
+ 	g_bullets[team][id].m_damage = damage;
+ 	g_bullets[team][id].m_x = x;
